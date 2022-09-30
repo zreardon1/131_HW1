@@ -60,3 +60,17 @@ ggplot(mpg, aes(x=reorder(manufacturer, manufacturer, function(x)-length(x)))) +
 Dodge produced the most cars and Lincoln produced the least.
 
 Exercise 4.
+
+```{r}
+ggplot(mpg, aes(x=hwy)) + geom_boxplot() + facet_wrap(~cyl, ncol=4)
+```
+
+It appears that cars with fewer cylinders will generally get better mpg on the highway.
+
+Exercise 5.
+
+```{r}
+library(corrplot)
+M=cor(mpg)
+corrplot(mpg, method = 'number')
+```
