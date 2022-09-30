@@ -1,0 +1,22 @@
+---
+title: "131_HW1"
+author: "Zack Reardon"
+date: "9/30/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question 1.
+
+Supervised learning refers to the process in which a program is trained to fit a model utilizing datasets containing both predictor variables and the response. Unsupervised learning refers to the process where a program trains itself utilizing data where only the predictors are present. The difference between supervised and unsupervised learning is that the data utilized in supervised learning is already labeled while the data used in unsupervised learning is not labeled.
+
+Question 2.
+
+A regression model is useful for modelling data where the response variable is quantitative while a classification model is usedul for modelling data where the response variable is qualitative.
+
+Question 3.
+
+Two commonly used metrics for regression machine learning problems are Training MSE and Test MSE. Two commonly used metrics for 
