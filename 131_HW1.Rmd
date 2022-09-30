@@ -33,3 +33,30 @@ Question 6.
 
 The first question is predictive since it aims to predict the likelihood of an individual voting for a candidate, represented by the response variable Y. The second question is predictive since it aims to determine the relationship between the predictor (contact with candidate) and the response (voting for a particular candidate).
 
+Exercise 1.
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+ggplot(mpg, aes(x=hwy))+geom_histogram()
+```
+
+The highway mpgs of the cars in the mpg dataset tend to be clustered around approximately 17 and 26 miles per gallon.
+
+Exercise 2.
+
+```{r}
+ggplot(mpg, aes(x=hwy, y=cty)) + geom_point()
+```
+
+There appears to be a strong linear relationship between hwy and cty meaning that there is a strong correlation between a car's highway and city mpg in the cars studied.
+
+Exercise 3.
+
+```{r}
+ggplot(mpg, aes(x=reorder(manufacturer, manufacturer, function(x)-length(x)))) + geom_bar() + coord_flip() + xlab("manufacturer")
+```
+
+Dodge produced the most cars and Lincoln produced the least.
+
+Exercise 4.
