@@ -15,7 +15,7 @@ Supervised learning refers to the process in which a program is trained to fit a
 
 Question 2.
 
-A regression model is useful for modelling data where the response variable is quantitative while a classification model is usedul for modelling data where the response variable is qualitative.
+A regression model is useful for modelling data where the response variable is quantitative while a classification model is useful for modelling data where the response variable is qualitative.
 
 Question 3.
 
@@ -26,3 +26,10 @@ Question 4.
 Descriptive models, according to lecture 1, are models used to best visually emphasize a trend in data, such as a line on a scatterplot. Inferential models, according to lecture 1, are aimed to test theories and to state the relationship between response and predictors. Predictive models, according to lecture 1, are intended to predict the response variable with the lowest possible reducible error.
 
 Question 5.
+
+Mechanistic models, according to lecture 1, assume a parametric form, won't match the true unknown function f, and are based on a theory. Empirically-driven models, on the other hand, do not include any assumptions about the function f and are formed off of studied data. According to lecture 1, empirically-driven models are much more flexible by default then mechanistic models and are overfitting by nature. Mechanistic and empirically-driven models are similar in that they can be overfitted and can be made increasingly flexible. In general, a mechanistic model is easier to understand since the parametric assumption results in a simpler model. The bias-variance tradeoff is related to the use of mechanistic or empirically-driven models since each method may perform differently in terms of flexibility and interpretability.
+
+Question 6.
+
+The first question is predictive since it aims to predict the likelihood of an individual voting for a candidate, represented by the response variable Y. The second question is predictive since it aims to determine the relationship between the predictor (contact with candidate) and the response (voting for a particular candidate).
+
