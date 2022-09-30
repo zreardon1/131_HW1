@@ -19,4 +19,10 @@ A regression model is useful for modelling data where the response variable is q
 
 Question 3.
 
-Two commonly used metrics for regression machine learning problems are Training MSE and Test MSE. Two commonly used metrics for 
+Two commonly used metrics for regression machine learning problems are Training MSE and Test MSE. Two commonly used metrics for classification machine learning problems are Training error rate and Test error rate.
+
+Question 4.
+
+Descriptive models, according to lecture 1, are models used to best visually emphasize a trend in data, such as a line on a scatterplot. Inferential models, according to lecture 1, are aimed to test theories and to state the relationship between response and predictors. Predictive models, according to lecture 1, are intended to predict the response variable with the lowest possible reducible error.
+
+Question 5.
