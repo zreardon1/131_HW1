@@ -71,6 +71,9 @@ Exercise 5.
 
 ```{r}
 library(corrplot)
-M=cor(mpg)
-corrplot(mpg, method = 'number')
+head(mpg)
+M = cor(mpg[,c(3,4,5,8,9)])
+corrplot(M, method = 'square', order = 'FPC', type = 'lower', diag = FALSE)
 ```
+
+Cylinder and displacement and city and highway are positively correlated, both of which intuitively make sense. City and displacement, highway and displacement, city and cylinder, and highway and cylinder are negatively correlated. These relationships also make sense. There is also a slight positive correlation between year and displacement and year and cylinder which do not immediately make sense. I found these latter relationships surprising.
